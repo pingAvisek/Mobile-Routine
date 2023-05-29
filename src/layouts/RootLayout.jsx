@@ -9,7 +9,7 @@ export default function RootLayout() {
       <main className="container mx-auto my-4">
         <Outlet />
       </main>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

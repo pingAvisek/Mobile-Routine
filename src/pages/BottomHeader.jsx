@@ -25,7 +25,7 @@ export default function BottomHeader() {
       <div className="search-container">
         <form action="">
           <input
-            className="p-2 w-full border-2 border-gray rounded-md focus:outline-none focus:border-primary  "
+            className="input-text border-gray "
             type="text"
             id="search"
             formMethod="GET"

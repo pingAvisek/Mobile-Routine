@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+.input-text {
+    @apply p-2 w-full border-2 rounded-md focus:outline-none focus:border-primary;
+}
+
 .hr{
     @apply border-t border-primary my-2;
 }
+
