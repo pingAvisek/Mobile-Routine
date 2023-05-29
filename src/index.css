@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hr{
+    @apply border-t border-primary my-2;
+}
